@@ -14,8 +14,8 @@ resource "azurerm_mssql_server" "sql_server" {
   resource_group_name          = data.azurerm_resource_group.sqlproject.name
   location                     = "South Africa North"              
   version                      = "12.0"                           # Version for Azure SQL
-  administrator_login          = "sqladmin"                       
-  administrator_login_password = "P@ssw0rd123!"                   
+  administrator_login          = "  "                       
+  administrator_login_password = "  "                   
 
   tags = {
     environment = "dev"
